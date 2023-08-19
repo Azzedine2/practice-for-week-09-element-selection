@@ -55,6 +55,8 @@ const select = () => {
 
   // 10. Get all unicorn list elements (not the image element)
   // Your code here
+  const unicorn = document.querySelectorAll("ul li:not(img)");
+  console.log(`Unicorn: ${unicorn}`);
 };
 
 window.onload = select;
