@@ -4,9 +4,12 @@ const select = () => {
     /* Section 1 */
     // 1. Get all seeded fruit elements
     // Your code here
+    const seeded = document.getElementsByClassName("seed")
+    console.log(`seed: ${seeded}`)
     
     // 2. Get all seedless fruit elements
     // Your code here
+    const seedless = document.getElementsByClassName("seedless")
 
     // 3. Get first seedless fruit element
     // Your code here
