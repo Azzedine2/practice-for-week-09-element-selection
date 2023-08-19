@@ -10,6 +10,7 @@ const select = () => {
     // 2. Get all seedless fruit elements
     // Your code here
     const seedless = document.getElementsByClassName("seedless")
+    console.log(`seedless: ${seedless}`)
 
     // 3. Get first seedless fruit element
     // Your code here
