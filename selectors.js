@@ -4,12 +4,12 @@ const select = () => {
   /* Section 1 */
   // 1. Get all seeded fruit elements
   // Your code here
-  const seeded = document.getElementsByClassName("seed");
-  console.log(`seed: ${seeded}`);
+  const seed = document.querySelectorAll("seed");
+  console.log(`seed: ${seed}`);
 
   // 2. Get all seedless fruit elements
   // Your code here
-  const seedless = document.getElementsByClassName("seedless");
+  const seedless = document.querySelectorAll("seedless");
   console.log(`seedless: ${seedless}`);
 
   // 3. Get first seedless fruit element
@@ -40,7 +40,7 @@ const select = () => {
   // 7. Get all even number list items in the list
   // Your code here
   const even = document.querySelectorAll("ol li:nth-child(even");
-  console.log(`Even: ${even}`);
+  console.dir(`Even: ${even}`);
 
   /* Section 3 */
   // 8. Get all tech companies without a class name
