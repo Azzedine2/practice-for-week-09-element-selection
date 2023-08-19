@@ -14,10 +14,12 @@ const select = () => {
 
     // 3. Get first seedless fruit element
     // Your code here
+    console.log(seedless[0])
 
     /* Section 2 */
     // 4. Get inner span with text "you"
     // Your code here
+    
 
     // 5. Get all children of element "wrapper"
     // Your code here
