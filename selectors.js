@@ -19,7 +19,8 @@ const select = () => {
     /* Section 2 */
     // 4. Get inner span with text "you"
     // Your code here
-    
+    const span = document.querySelector("span")
+    console.log(`Span adress: ${span}`)
 
     // 5. Get all children of element "wrapper"
     // Your code here
