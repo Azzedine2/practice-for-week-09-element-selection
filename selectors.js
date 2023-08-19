@@ -29,12 +29,18 @@ const select = () => {
   console.log(`Children: ${childs}`);
 
   // 6. Get all list items in the list`)
+  const items = document.querySelector(`ol`).children;
+  console.log(`Items: ${items}`);
 
   // 6. Get all odd number list items in the list
   // Your code here
+  const odd = document.querySelectorAll("odd");
+  console.log(`Odd: ${odd}`);
 
   // 7. Get all even number list items in the list
   // Your code here
+  const even = document.querySelectorAll("ol li:nth-child(even");
+  console.log(`Even: ${even}`);
 
   /* Section 3 */
   // 8. Get all tech companies without a class name
