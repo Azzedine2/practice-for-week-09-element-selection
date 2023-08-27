@@ -6,6 +6,15 @@ const select = () => {
   // Your code here
   const seed = document.querySelectorAll(".seed");
   console.log(`seed: ${seed}`);
+  // for (let i = 0; i < seed.length; i++) {
+  //   console.log(seed[i])
+  //   seed[i].style.color = "blue"
+  // }
+
+  seed.forEach((item) => console.log(item));
+
+  const seedItems = seed.map((item) => `<p>${item}</p>`);
+  console.log(seedItems)
 
   // 2. Get all seedless fruit elements
   // Your code here
